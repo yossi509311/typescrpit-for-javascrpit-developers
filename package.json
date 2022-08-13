@@ -4,7 +4,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "typescript": "^3.7.5"
   },
   "scripts": {
     "start": "npx live-server"
