@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "start": "npx live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yossi509311/typescrpit-for-javascrpit-developers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yossi509311/typescrpit-for-javascrpit-developers/issues"
+  },
+  "homepage": "https://github.com/yossi509311/typescrpit-for-javascrpit-developers#readme",
+  "description": ""
+}
