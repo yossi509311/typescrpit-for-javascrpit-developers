@@ -2,7 +2,9 @@
   "name": "app",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
   "devDependencies": {
     "live-server": "^1.2.1",
     "ts-node": "^8.5.4",

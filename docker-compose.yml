@@ -7,13 +7,12 @@ services:
 #    command: ["/bin/sh", "-c", "npx live-server"]
 #    command: ["/bin/sh", "-c", "npm install && npm run start"]
 #    command: ["/bin/sh", "-c", "npm init -y && npm install -D live-server@1.2.1 && npx live-server"]
-    command: ["/bin/sh", "-c", "npm run dev src/boolean.ts"]
+    command: ["/bin/sh", "-c", "npm run dev src/never.ts"]
     ports:
       - 127.0.0.1:8080:8080
     volumes:
       - ./:/app
       - node_modules:/app/node_modules
-#    command: npm init -y
 volumes:
   node_modules:
     driver: 'local'
