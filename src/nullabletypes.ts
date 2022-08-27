@@ -2,10 +2,8 @@ export {};
 
 let profile: {
   name: string;
-  age: number;
+  age: number | null;
 } = {
   name: 'Ham',
   age: null,
 };
-
-profile = null;
